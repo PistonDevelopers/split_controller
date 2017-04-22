@@ -1,0 +1,24 @@
+[package]
+name = "piston-split_controller"
+version = "0.1.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+keywords = ["controller", "split", "piston"]
+description = "A Piston library for handling split layout state and events"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/split_controller.git"
+homepage = "https://github.com/PistonDevelopers/split_controller"
+
+[lib]
+name = "split_controller"
+path = "src/lib.rs"
+
+[dependencies]
+vecmath = "0.3.0"
+pistoncore-input = "0.17.0"
+
+[dev-dependencies]
+pistoncore-sdl2_window = "0.40.0"
+piston2d-opengl_graphics = "0.42.0"
+piston2d-graphics = "0.21.1"
+piston = "0.31.4"
