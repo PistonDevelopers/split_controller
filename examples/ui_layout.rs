@@ -17,7 +17,7 @@ fn main() {
 
     let settings = WindowSettings::new("UI Layout", [1024; 2])
         .exit_on_esc(true)
-        .opengl(opengl);
+        .graphics_api(opengl);
     let mut window: Sdl2Window = settings.build().unwrap();
 
     let ref mut split_layout_settings = SplitLayoutSettings::new(2.0, 100.0);
